@@ -1,0 +1,205 @@
+{
+  "dataset": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg",
+  "image_totals": {
+    "train": 4694,
+    "val": 779,
+    "test": 422
+  },
+  "total_images": 5895,
+  "class_image_counts": [
+    {
+      "id": 0,
+      "class": "back_bumper",
+      "train": 1742,
+      "val": 320,
+      "test": 145,
+      "total": 2207
+    },
+    {
+      "id": 1,
+      "class": "back_door",
+      "train": 1248,
+      "val": 229,
+      "test": 96,
+      "total": 1573
+    },
+    {
+      "id": 2,
+      "class": "back_glass",
+      "train": 909,
+      "val": 124,
+      "test": 53,
+      "total": 1086
+    },
+    {
+      "id": 3,
+      "class": "back_left_door",
+      "train": 204,
+      "val": 15,
+      "test": 36,
+      "total": 255
+    },
+    {
+      "id": 4,
+      "class": "back_left_light",
+      "train": 244,
+      "val": 19,
+      "test": 28,
+      "total": 291
+    },
+    {
+      "id": 5,
+      "class": "back_light",
+      "train": 1226,
+      "val": 196,
+      "test": 67,
+      "total": 1489
+    },
+    {
+      "id": 6,
+      "class": "back_right_door",
+      "train": 184,
+      "val": 11,
+      "test": 28,
+      "total": 223
+    },
+    {
+      "id": 7,
+      "class": "back_right_light",
+      "train": 204,
+      "val": 13,
+      "test": 24,
+      "total": 241
+    },
+    {
+      "id": 8,
+      "class": "front_bumper",
+      "train": 2924,
+      "val": 524,
+      "test": 276,
+      "total": 3724
+    },
+    {
+      "id": 9,
+      "class": "front_door",
+      "train": 1468,
+      "val": 265,
+      "test": 106,
+      "total": 1839
+    },
+    {
+      "id": 10,
+      "class": "front_glass",
+      "train": 1905,
+      "val": 278,
+      "test": 182,
+      "total": 2365
+    },
+    {
+      "id": 11,
+      "class": "front_left_door",
+      "train": 224,
+      "val": 15,
+      "test": 40,
+      "total": 279
+    },
+    {
+      "id": 12,
+      "class": "front_left_light",
+      "train": 412,
+      "val": 30,
+      "test": 62,
+      "total": 504
+    },
+    {
+      "id": 13,
+      "class": "front_light",
+      "train": 1996,
+      "val": 342,
+      "test": 149,
+      "total": 2487
+    },
+    {
+      "id": 14,
+      "class": "front_right_door",
+      "train": 208,
+      "val": 11,
+      "test": 28,
+      "total": 247
+    },
+    {
+      "id": 15,
+      "class": "front_right_light",
+      "train": 392,
+      "val": 25,
+      "test": 56,
+      "total": 473
+    },
+    {
+      "id": 16,
+      "class": "hood",
+      "train": 1944,
+      "val": 280,
+      "test": 176,
+      "total": 2400
+    },
+    {
+      "id": 17,
+      "class": "left_mirror",
+      "train": 404,
+      "val": 31,
+      "test": 62,
+      "total": 497
+    },
+    {
+      "id": 18,
+      "class": "object",
+      "train": 10,
+      "val": 1,
+      "test": 1,
+      "total": 12
+    },
+    {
+      "id": 19,
+      "class": "right_mirror",
+      "train": 412,
+      "val": 30,
+      "test": 56,
+      "total": 498
+    },
+    {
+      "id": 20,
+      "class": "tailgate",
+      "train": 88,
+      "val": 5,
+      "test": 8,
+      "total": 101
+    },
+    {
+      "id": 21,
+      "class": "trunk",
+      "train": 159,
+      "val": 15,
+      "test": 18,
+      "total": 192
+    },
+    {
+      "id": 22,
+      "class": "wheel",
+      "train": 1978,
+      "val": 389,
+      "test": 215,
+      "total": 2582
+    },
+    {
+      "id": 23,
+      "class": "fender",
+      "train": 1538,
+      "val": 389,
+      "test": 146,
+      "total": 2073
+    }
+  ],
+  "orphan_labels": [],
+  "counting": "Each image counted once per class; multi-class images count in multiple rows."
+}

@@ -1,0 +1,22 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+# Large local datasets, models, and generated results
+dataset/
+runs/
+weights/
+work/
+outputs/
+*.pt
+*.onnx
+*.engine
+*.cache
+*.log
+data.train.yaml
+test_metrics.json
+.DS_Store

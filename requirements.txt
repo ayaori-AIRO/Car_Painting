@@ -1,0 +1,6 @@
+# Install the appropriate CUDA-enabled PyTorch build separately.
+ultralytics==8.4.173
+albumentationsx==2.0.20
+opencv-python
+PyYAML
+Pillow
