@@ -1,0 +1,106 @@
+{
+  "mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 3,
+    "5": 3,
+    "6": 1,
+    "7": 3,
+    "8": 4,
+    "9": 5,
+    "10": 2,
+    "11": 5,
+    "12": 6,
+    "13": 6,
+    "14": 5,
+    "15": 6,
+    "16": 7,
+    "17": 8,
+    "18": null,
+    "19": 8,
+    "20": null,
+    "21": 9,
+    "22": 10,
+    "23": 11
+  },
+  "classes": [
+    "back_bumper",
+    "back_door",
+    "glass",
+    "back_light",
+    "front_bumper",
+    "front_door",
+    "front_light",
+    "hood",
+    "side_mirror",
+    "trunk",
+    "wheel",
+    "fender"
+  ],
+  "backup": "C:\\Projects\\Car_Painting\\dataset\\class_backups\\carparts-seg-augmented-all_24classes_20261012",
+  "splits": {
+    "train": {
+      "images": 23470,
+      "empty_labels": 630,
+      "instances": {
+        "back_bumper": 8745,
+        "back_door": 8205,
+        "glass": 14090,
+        "back_light": 10785,
+        "front_bumper": 14630,
+        "front_door": 9500,
+        "front_light": 18670,
+        "hood": 9720,
+        "side_mirror": 4080,
+        "trunk": 795,
+        "wheel": 18020,
+        "fender": 7755
+      }
+    },
+    "val": {
+      "images": 779,
+      "empty_labels": 13,
+      "instances": {
+        "back_bumper": 321,
+        "back_door": 256,
+        "glass": 403,
+        "back_light": 296,
+        "front_bumper": 526,
+        "front_door": 291,
+        "front_light": 546,
+        "hood": 280,
+        "side_mirror": 61,
+        "trunk": 15,
+        "wheel": 738,
+        "fender": 397
+      }
+    },
+    "test": {
+      "images": 422,
+      "empty_labels": 8,
+      "instances": {
+        "back_bumper": 146,
+        "back_door": 160,
+        "glass": 235,
+        "back_light": 142,
+        "front_bumper": 276,
+        "front_door": 174,
+        "front_light": 337,
+        "hood": 176,
+        "side_mirror": 118,
+        "trunk": 18,
+        "wheel": 391,
+        "fender": 149
+      }
+    }
+  },
+  "removed_annotations": {
+    "18": 52,
+    "20": 453
+  },
+  "images_deleted": 0,
+  "polygons_preserved": true,
+  "initial_model": "C:\\Projects\\Car_Painting\\runs\\carparts_combined_augmentation_20261011\\weights\\best.pt"
+}

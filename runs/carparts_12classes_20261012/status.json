@@ -1,0 +1,39 @@
+{
+  "state": "Complete",
+  "stage": "Training and test complete",
+  "epochs": 8,
+  "dataset": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg-augmented-all",
+  "run": "C:\\Projects\\Car_Painting\\runs\\carparts_12classes_20261012",
+  "classes": [
+    "back_bumper",
+    "back_door",
+    "glass",
+    "back_light",
+    "front_bumper",
+    "front_door",
+    "front_light",
+    "hood",
+    "side_mirror",
+    "trunk",
+    "wheel",
+    "fender"
+  ],
+  "elapsed_seconds": 2933,
+  "generated": 400,
+  "total": 422,
+  "epoch": 8,
+  "batch": 730,
+  "batches": 734,
+  "gpu_memory_gb": 5.74,
+  "metrics": {
+    "metrics/precision(B)": 0.874938287167078,
+    "metrics/recall(B)": 0.8640693885770895,
+    "metrics/mAP50(B)": 0.8975163750582394,
+    "metrics/mAP50-95(B)": 0.7613058053812348,
+    "metrics/precision(M)": 0.87769899810073,
+    "metrics/recall(M)": 0.86448486972981,
+    "metrics/mAP50(M)": 0.8990436073747076,
+    "metrics/mAP50-95(M)": 0.7355516714973637
+  },
+  "best": "C:\\Projects\\Car_Painting\\runs\\carparts_12classes_20261012\\weights\\best.pt"
+}

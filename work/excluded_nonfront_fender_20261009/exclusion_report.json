@@ -1,0 +1,256 @@
+{
+  "excluded_images": 16,
+  "excluded_by_split": {
+    "train": 11,
+    "val": 3,
+    "test": 2
+  },
+  "remaining_fender_images": {
+    "train": 1543,
+    "val": 389,
+    "test": 146
+  },
+  "backup": "C:\\Projects\\Car_Painting\\work\\excluded_nonfront_fender_20261009",
+  "screened_new_image_annotations": 1614,
+  "visually_reviewed_candidates": 128,
+  "audit_limit": "Geometry-based screening followed by visual review; not exhaustive visual review of all 1614 images.",
+  "excluded": [
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\Chrysler-Pacifica (50)_jpg.rf.qVwFzhslj68r9OnglZYa.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_Chrysler-Pacifica (50)_jpg.rf.qVwFzhslj68r9OnglZYa.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_Chrysler-Pacifica (50)_jpg.rf.qVwFzhslj68r9OnglZYa.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\Chevrolet-Suburban (32)_jpg.rf.LzJuYOWNKRJnXjuufFnd.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_Chevrolet-Suburban (32)_jpg.rf.LzJuYOWNKRJnXjuufFnd.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_Chevrolet-Suburban (32)_jpg.rf.LzJuYOWNKRJnXjuufFnd.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\365cb53928b7c84824a96ee76f60529ex_jpg.rf.FQFampT75bX2z9FqOXvY.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_365cb53928b7c84824a96ee76f60529ex_jpg.rf.FQFampT75bX2z9FqOXvY.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_365cb53928b7c84824a96ee76f60529ex_jpg.rf.FQFampT75bX2z9FqOXvY.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\Chrysler-Pacifica+Hybrid (9)_jpg.rf.liEsQy5kvyIQNcZwlxpm.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_Chrysler-Pacifica+Hybrid (9)_jpg.rf.liEsQy5kvyIQNcZwlxpm.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_Chrysler-Pacifica+Hybrid (9)_jpg.rf.liEsQy5kvyIQNcZwlxpm.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 3,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "no_front_wheel_label"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\306faf5357e5b0148566dee4090a2edcx_jpg.rf.yYq9czOun3JnbkzT8LLL.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_306faf5357e5b0148566dee4090a2edcx_jpg.rf.yYq9czOun3JnbkzT8LLL.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_306faf5357e5b0148566dee4090a2edcx_jpg.rf.yYq9czOun3JnbkzT8LLL.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\3473d9e1b316da5603fb76b978a5c324x_jpg.rf.Wjkt19ARxqPpQK7OUCql.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_3473d9e1b316da5603fb76b978a5c324x_jpg.rf.Wjkt19ARxqPpQK7OUCql.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_3473d9e1b316da5603fb76b978a5c324x_jpg.rf.Wjkt19ARxqPpQK7OUCql.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\58a783e9c9bc6b8c4178787fcf8a7406x_jpg.rf.X2Wt6nS6e8muvDAC1cUz.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_58a783e9c9bc6b8c4178787fcf8a7406x_jpg.rf.X2Wt6nS6e8muvDAC1cUz.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_58a783e9c9bc6b8c4178787fcf8a7406x_jpg.rf.X2Wt6nS6e8muvDAC1cUz.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 3,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "no_front_wheel_label"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\19b1a66bba00895eedb262559f82667ax_jpg.rf.RbLX2a00JjTPfiaPI7KR.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_19b1a66bba00895eedb262559f82667ax_jpg.rf.RbLX2a00JjTPfiaPI7KR.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_19b1a66bba00895eedb262559f82667ax_jpg.rf.RbLX2a00JjTPfiaPI7KR.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "no_front_wheel_label"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\24bc074e7886ac1d8a053d391fa4ba85x_jpg.rf.2fUEdTr5iI2glZN7BhSt.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_24bc074e7886ac1d8a053d391fa4ba85x_jpg.rf.2fUEdTr5iI2glZN7BhSt.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_24bc074e7886ac1d8a053d391fa4ba85x_jpg.rf.2fUEdTr5iI2glZN7BhSt.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\d278e6a602b9e1b8653679550f28a345x_jpg.rf.YMmuJwnfU5ayCTn63rrv.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_d278e6a602b9e1b8653679550f28a345x_jpg.rf.YMmuJwnfU5ayCTn63rrv.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_d278e6a602b9e1b8653679550f28a345x_jpg.rf.YMmuJwnfU5ayCTn63rrv.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\train\\135c385368f0f4f0f6a090dc99dc50f1x_jpg.rf.UarSmJ7LBGEP4oVx4Dg4.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\train\\import_fender_f_20261009_train_135c385368f0f4f0f6a090dc99dc50f1x_jpg.rf.UarSmJ7LBGEP4oVx4Dg4.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\train\\import_fender_f_20261009_train_135c385368f0f4f0f6a090dc99dc50f1x_jpg.rf.UarSmJ7LBGEP4oVx4Dg4.txt",
+      "split": "train",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\valid\\9b00bda2e8ef5108cb43bb8119779473x_jpg.rf.Dp2NixcVRHuglyllxQEO.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\val\\import_fender_f_20261009_valid_9b00bda2e8ef5108cb43bb8119779473x_jpg.rf.Dp2NixcVRHuglyllxQEO.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\val\\import_fender_f_20261009_valid_9b00bda2e8ef5108cb43bb8119779473x_jpg.rf.Dp2NixcVRHuglyllxQEO.txt",
+      "split": "val",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "no_front_wheel_label"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\valid\\d460791cf82d3af1a1c0dbb85fdd5ee5x_jpg.rf.ockh3bFMVMle35d5Gs6t.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\val\\import_fender_f_20261009_valid_d460791cf82d3af1a1c0dbb85fdd5ee5x_jpg.rf.ockh3bFMVMle35d5Gs6t.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\val\\import_fender_f_20261009_valid_d460791cf82d3af1a1c0dbb85fdd5ee5x_jpg.rf.ockh3bFMVMle35d5Gs6t.txt",
+      "split": "val",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\valid\\304dc81db576b7275fea1c114497ec1bx_jpg.rf.ZHV64DI6FE1RZEZpYT4i.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\val\\import_fender_f_20261009_valid_304dc81db576b7275fea1c114497ec1bx_jpg.rf.ZHV64DI6FE1RZEZpYT4i.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\val\\import_fender_f_20261009_valid_304dc81db576b7275fea1c114497ec1bx_jpg.rf.ZHV64DI6FE1RZEZpYT4i.txt",
+      "split": "val",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\test\\Dodge-Challenger (5)_jpg.rf.onbe6IwCP1FriffUoCVH.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\test\\import_fender_f_20261009_test_Dodge-Challenger (5)_jpg.rf.onbe6IwCP1FriffUoCVH.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\test\\import_fender_f_20261009_test_Dodge-Challenger (5)_jpg.rf.onbe6IwCP1FriffUoCVH.txt",
+      "split": "test",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels",
+        "nearer_rear_wheel"
+      ]
+    },
+    {
+      "source": "C:\\Users\\hui\\Downloads\\Fender-Forked on 10-9-2026.coco\\test\\12ff69cb8c0a038b51f2c16c342a998ex_jpg.rf.8Vfw1r453sEJtwet4oRL.jpg",
+      "image": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\images\\test\\import_fender_f_20261009_test_12ff69cb8c0a038b51f2c16c342a998ex_jpg.rf.8Vfw1r453sEJtwet4oRL.jpg",
+      "label": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg\\labels\\test\\import_fender_f_20261009_test_12ff69cb8c0a038b51f2c16c342a998ex_jpg.rf.8Vfw1r453sEJtwet4oRL.txt",
+      "split": "test",
+      "format": "JPEG",
+      "orientation_fix": false,
+      "width": 4032,
+      "height": 3024,
+      "fender_polygons": 2,
+      "reasons": [
+        "multiple_front_fender_labels"
+      ]
+    }
+  ]
+}

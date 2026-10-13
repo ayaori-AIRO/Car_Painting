@@ -1,0 +1,17 @@
+names:
+  0: back_bumper
+  1: back_door
+  2: glass
+  3: back_light
+  4: front_bumper
+  5: front_door
+  6: front_light
+  7: hood
+  8: side_mirror
+  9: trunk
+  10: wheel
+  11: fender
+path: ../dataset/carparts-seg-augmented-all
+test: images/test
+train: images/train
+val: images/val

@@ -1,0 +1,35 @@
+{
+  "state": "Complete",
+  "stage": "Training and comparison complete",
+  "epochs": 8,
+  "dataset": "C:\\Projects\\Car_Painting\\dataset\\carparts-seg-augmented-all",
+  "run": "C:\\Projects\\Car_Painting\\runs\\carparts_combined_augmentation_20261011",
+  "elapsed_seconds": 3452,
+  "generated": 24660,
+  "total": 24671,
+  "group": "occlusion",
+  "group_generated": 4683,
+  "group_total": 4694,
+  "dataset_GB": 12.62,
+  "counts": {
+    "train": 23470,
+    "val": 779,
+    "test": 422
+  },
+  "epoch": 8,
+  "batch": 733,
+  "batches": 734,
+  "gpu_memory_gb": 5.78,
+  "metrics": {
+    "metrics/precision(B)": 0.7158510200217166,
+    "metrics/recall(B)": 0.7755127819962174,
+    "metrics/mAP50(B)": 0.7796408956388751,
+    "metrics/mAP50-95(B)": 0.6558742724241803,
+    "metrics/precision(M)": 0.6904407547220437,
+    "metrics/recall(M)": 0.8195128868018559,
+    "metrics/mAP50(M)": 0.7834170341396502,
+    "metrics/mAP50-95(M)": 0.6357836036735021
+  },
+  "best": "C:\\Projects\\Car_Painting\\runs\\carparts_combined_augmentation_20261011\\weights\\best.pt",
+  "comparison": "C:\\Projects\\Car_Painting\\runs\\carparts_combined_augmentation_20261011\\comparison.json"
+}
